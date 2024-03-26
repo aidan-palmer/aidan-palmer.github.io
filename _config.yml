@@ -18,9 +18,11 @@ linkedin_username: "www.linkedin.com/in/aidan-palmer-77474917a"
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-#theme: "midnight"
+theme: "minima"
 
-remote_theme: pages-themes/midnight@v0.2.0
+minima:
+  skin: dark
+
 
 rss: rss
 
@@ -31,7 +33,7 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-remote-theme
+
 
 titles_from_headings:
   strip_title: true
