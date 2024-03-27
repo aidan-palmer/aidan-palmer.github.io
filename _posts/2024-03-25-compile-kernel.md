@@ -1,6 +1,5 @@
 ## Compile and Install the Linux Kernel
 
-
 This is a quick tutorial on how to download, compile, and install the Linux kernel from its source code. This can be useful if you're building a custom kernel, want to update or revert back to an older kernel, or plan on writing and installing custom kernel modules (like in my case). I've been learning about how to write kernel modules in C, and some advice I've found online is that there can sometimes be issues with loading custom modules onto a pre-compiled kernel. Compiling and installing the kernel yourself is one way to prevent these issues from arising.
 
 This guide is for people using Ubuntu, Mint, or any other Debian-based distribution. The process should be similar on other distributions like Fedora or Arch, but I can't guarantee it'll work since I haven't tested it on any of those distros.
@@ -8,7 +7,7 @@ This guide is for people using Ubuntu, Mint, or any other Debian-based distribut
 ### Download the kernel source and install packages
 
 Download the kernel version of your preference from [kernel.org](https://www.kernel.org/)
-If you're note sure which version to get, go with the latest longterm release.
+If you're not sure which version to get, go with the latest longterm release.
 
 Right click on the tarball link, copy the link address, and paste it into your terminal like this:
 ```bash
